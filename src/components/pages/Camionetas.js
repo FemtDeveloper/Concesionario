@@ -1,17 +1,14 @@
 import React from "react";
 import { camionetas } from "../Motos";
 import "./camionetas.css";
-
+import mainCamioneta from "../../imags/main-camioneta.jpg";
 const Camionetas = () => {
   return (
     <>
       <div className="main-camioneta--container">
         <div className="camioneta-container">
           <h1>CAMIONETAS</h1>
-          <img
-            src={require("./../../imags/main-camioneta.jpg").default}
-            alt="main-img"
-          />
+          <img src={mainCamioneta} alt="main-img" />
           <p>Foto de Kelson Downes en Pexels</p>
         </div>
         <div className="camioneta-group">

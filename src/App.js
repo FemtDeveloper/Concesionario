@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/motocicletas" element={<Motocicletas />} />
-        <Route path="concesionario/camionetas" element={<Camionetas />} />
+        <Route path="/camionetas" element={<Camionetas />} />
         <Route path="/automoviles" element={<Automoviles />} />
         <Route path="/enduro" element={<Enduro />} />
         <Route path="/" element={<Inicio />} />
