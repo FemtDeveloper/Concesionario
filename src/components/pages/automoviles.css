@@ -1,0 +1,43 @@
+.auto-container img {
+  width: 100%;
+}
+
+.main-auto--container {
+  background-color: #151515;
+}
+
+.aAuto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  width: 100%;
+  height: auto;
+  font-size: 2.4rem;
+  color: #b3b3b3;
+  border-bottom: solid 2px #e4e4e4;
+}
+.aAuto h2 {
+  margin-right: auto;
+  font-weight: bold;
+}
+.aAuto img {
+  width: 100%;
+  border-radius: 15px;
+  padding: 5px 0;
+}
+.aAuto h4 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 720px) {
+  .auto-container h1 {
+    font-size: 8rem;
+  }
+  @media screen and (max-width: 540px) {
+    .camioneta-container h1 {
+      font-size: 5rem;
+      top: 80px;
+    }
+  }
+}

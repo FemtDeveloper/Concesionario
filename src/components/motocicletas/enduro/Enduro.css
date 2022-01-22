@@ -1,0 +1,43 @@
+.enduro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border: solid 2px grey;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.item-container img {
+  width: 60%;
+}
+.description-container {
+  width: 100%;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.description-container .ref {
+  font-size: 24px;
+  font-weight: 800;
+  color: #5e5e5e;
+}
+
+.description-container p {
+  font-size: 14px;
+  color: #353535;
+}
+.price {
+  font-weight: 900;
+  font-size: 24px;
+  color: #d52121;
+}

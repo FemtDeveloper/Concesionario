@@ -1,0 +1,60 @@
+const enduro = [
+  {
+    id: 1,
+    ref: "PW50",
+    price: "8.000.000",
+    cc: "49 c.c",
+    weight: "41 Kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2020/09/pw50_2022.jpg",
+  },
+  {
+    id: 2,
+    ref: "WR450F",
+    price: "44.000.000",
+    cc: "450 CC",
+    weight: "120 Kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/wr450Fi.jpg",
+  },
+  {
+    id: 3,
+    ref: "WR250F",
+    price: "41.500.000",
+    cc: "250 CC",
+    weight: "115 kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/WR250F-1.jpg",
+  },
+  {
+    id: 4,
+    ref: "TTR50",
+    price: "6.500.000",
+    cc: "49 CC",
+    weight: "58 kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/05/ttr50_azul.jpeg",
+  },
+  {
+    id: 5,
+    ref: "YZ250F",
+    price: "34.000.000",
+    cc: "249 CC",
+    weight: "104 kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/03/yz250x-2022.jpg",
+  },
+  {
+    id: 6,
+    ref: "YZ65",
+    price: "22.500.000",
+    cc: "65 CC",
+    weight: "61 kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2019/02/YZ65-COLOR.jpg",
+  },
+  {
+    id: 7,
+    ref: "TTR110",
+    price: "11.600.000",
+    cc: "110 CC",
+    weight: "72 kg",
+    img: "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/ttr110E.jpg",
+  },
+];
+
+export default enduro;

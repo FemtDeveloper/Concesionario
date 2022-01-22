@@ -1,0 +1,65 @@
+.camioneta-container {
+  position: relative;
+  width: 100%;
+  border-bottom: solid #e4e4e4 2px;
+}
+.camioneta-container img {
+  width: 100%;
+}
+.camioneta-container h1 {
+  display: flex;
+  position: absolute;
+  top: 180px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+  font-size: 12rem;
+  z-index: 6;
+}
+.camioneta-container p {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #fff;
+  font-size: 0.6rem;
+  padding-right: 5px;
+}
+.main-camioneta--container {
+  background-color: #151515;
+}
+.aCamioneta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  width: 100%;
+  height: auto;
+  font-size: 2.4rem;
+  color: #b3b3b3;
+  border-bottom: solid 2px #e4e4e4;
+}
+.aCamioneta h2 {
+  margin-right: auto;
+  font-weight: bold;
+}
+.aCamioneta img {
+  width: 100%;
+  border-radius: 15px;
+  padding: 5px 0;
+}
+.aCamioneta h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 720px) {
+  .camioneta-container h1 {
+    font-size: 8rem;
+  }
+  @media screen and (max-width: 540px) {
+    .camioneta-container h1 {
+      font-size: 5rem;
+      top: 80px;
+    }
+  }
+}
