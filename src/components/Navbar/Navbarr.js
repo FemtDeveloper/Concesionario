@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "../LoginButton/Button";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import Dropdown from "./Dropdown";
-import Login from "./Login";
-import logo from "../imags/motogp.png";
+import Dropdown from "../Dropdown/Dropdown";
+import Login from "../Login/Login";
+import logo from "../../imags/motogp.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);

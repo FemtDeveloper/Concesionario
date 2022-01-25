@@ -1,8 +1,9 @@
 import React from "react";
-import { camionetas } from "../Motos";
+import { camionetas } from "../../../components/Motos";
 import "./camionetas.css";
-import mainCamioneta from "../../imags/main-camioneta.jpg";
-const Camionetas = () => {
+import mainCamioneta from "../../../imags/main-camioneta.jpg";
+
+export const Camionetas = () => {
   return (
     <>
       <div className="main-camioneta--container">
@@ -27,4 +28,4 @@ const Camionetas = () => {
   );
 };
 
-export default Camionetas;
+// export default Camionetas;

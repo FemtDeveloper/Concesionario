@@ -1,8 +1,8 @@
 import React from "react";
-import enduro from "../../data/catalogo-motos";
+import enduro from "../../../data/catalogo-motos";
 import "./Enduro.css";
 
-const Enduro = () => {
+export const Enduro = () => {
   return (
     <>
       <div className="enduro-container">
@@ -22,4 +22,4 @@ const Enduro = () => {
   );
 };
 
-export default Enduro;
+// export default Enduro;

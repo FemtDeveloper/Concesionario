@@ -1,9 +1,9 @@
 import React from "react";
 import "./automoviles.css";
-import { autos } from "../Motos";
-import mainAuto from "../../imags/main-auto.jpg";
+import { autos } from "../../Motos";
+import mainAuto from "../../../imags/main-auto.jpg";
 
-const Automoviles = () => {
+export const Automoviles = () => {
   return (
     <>
       <div className="main-auto--container">
@@ -26,4 +26,4 @@ const Automoviles = () => {
   );
 };
 
-export default Automoviles;
+// export default Automoviles;

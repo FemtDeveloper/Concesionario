@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./motocicletas.css";
-import mainMoto from "./../../imags/main-moto.jpg";
+import mainMoto from "../../../imags/main-moto.jpg";
 import axios from "axios";
 
-const Motocicletas = () => {
+export const Motocicletas = () => {
   const [post, setPost] = useState([]);
 
   useEffect(() => {
@@ -37,4 +37,4 @@ const Motocicletas = () => {
   );
 };
 
-export default Motocicletas;
+// export default Motocicletas;

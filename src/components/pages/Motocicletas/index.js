@@ -1,0 +1,1 @@
+export { Motocicletas } from "./Motocicletas";

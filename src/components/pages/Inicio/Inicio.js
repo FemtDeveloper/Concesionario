@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Inicio.css";
-import Maps from "./../Map";
-import Form from "../Form";
+import Maps from "../../Map";
+import Form from "../../../components/Form/Form";
 
-const Inicio = () => {
+export const Inicio = () => {
   return (
     <>
       <div className="container-inicio">
@@ -35,4 +35,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+// export default Inicio;

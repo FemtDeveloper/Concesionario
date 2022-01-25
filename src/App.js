@@ -1,13 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbarr";
 import "./App.css";
-import Inicio from "./components/pages/Inicio";
-import Motocicletas from "./components/pages/Motocicletas";
-import Camionetas from "./components/pages/Camionetas";
-import Automoviles from "./components/pages/Automoviles";
-import Footer from "./components/Footer";
-import Enduro from "./components/motocicletas/enduro/Enduro";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbarr";
+import {
+  Inicio,
+  Motocicletas,
+  Camionetas,
+  Automoviles,
+  Enduro,
+} from "./components/pages";
 
 function App() {
   return (
@@ -27,3 +29,11 @@ function App() {
 }
 
 export default App;
+
+// import Navbar from "./components/Navbarr";
+// import Inicio from "./components/pages/Inicio";
+// import Motocicletas from "./components/pages/Motocicletas";
+// import Camionetas from "./components/pages/Camionetas";
+// import Automoviles from "./components/pages/Automoviles";
+// import Enduro from "./components/motocicletas/enduro/Enduro";
+// import Footer from "./components/Footer";

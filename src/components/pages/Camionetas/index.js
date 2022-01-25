@@ -1,0 +1,1 @@
+export { Camionetas } from "./Camionetas";
